@@ -31,9 +31,26 @@ body{
 .firstSection > div{
     width: 30%;
 }
+span #element{
+    padding-bottom: 18px;
+}
 .leftSection{
-    
     font-size: 2rem;
+}
+.btn{
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 0.75rem;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-color: rgb(158, 66, 245);
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
+}
+.btn:hover{
+    color: rgb(153, 153, 248);
+    font-size: 0.85rem;
 }
 .right ul li a{
     text-decoration: none;
@@ -68,6 +85,7 @@ body{
     color: rgb(143, 136, 136);
 }
 .secondSection{
+    max-height: 80vh;
     max-width: 80vw;
     margin: auto;
 }
@@ -75,14 +93,15 @@ body{
 .secondSection .box{
     width: 80vw;
     display: flex;
-    justify-content: space-around;
     height: 2px;
     background-color: white;
     margin: 56px 0;
 }
 .secondSection .vertical{
     height: 90px;
-    width: 2px;
+    margin: 0 150px;
+    width: 1px;
+    font-size: 14px;
     background-color: white;
 }
 .vertical img{
@@ -106,10 +125,29 @@ body{
     top: 20px;
     left: -20px;
 }
-
+footer{
+    position: relative;
+    margin-top: 70px;
+    top: 205px;
+    background-color: #0e0e1a;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex ul{
+    list-style: none;
+}
 main hr{
     border: 0;
     background: #9c97f1;
     height: 1.2px;
     margin: 40px 84px;
+}
+
+.footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0px;
 }
